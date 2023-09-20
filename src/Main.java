@@ -36,6 +36,8 @@ public class Main {
                 		System.out.println("=============================================");
                 	} else if(type == 2) {
                 		System.out.println("=============================================");
+                		System.out.println(ANSI_RED + "	Вот список авто " + ANSI_GREEN + "КОМФОРТ " +  
+ 				   			ANSI_RED + "класса:\nID / Название / Цена(в салоне)" + ANSI_RESET);
                 		lCars.listByClass(comfortCars); // Call func listByClass for Comfort Cars
                 		System.out.println("=============================================");
                 	} else if(type == 3) {
